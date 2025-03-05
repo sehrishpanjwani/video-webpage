@@ -128,6 +128,25 @@ nav {
     margin-bottom: 5px;
 }
 
+.category {
+    background-color: rgba(210, 4, 45, 0.30); 
+    color: white; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+    cursor: pointer;
+    border: 0.2px solid white;
+}
+
+.category:hover {
+    background-color: #D2042D; 
+    color: white; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); 
+    transform: scale(1.03);
+}
+
 .back-video {
     position: absolute;
     right: 0;
@@ -145,4 +164,5 @@ nav {
         height: 100%;
     }
 }
+
 
